@@ -1,10 +1,28 @@
-# Calculator
-![download gif](https://github.com/user-attachments/assets/87ede736-caee-4e4b-b795-5e7caa37e271)
+# 🧮 Smart Console Calculator (Java)
 
-This is a calculator that can make 4 operations with numbers:
-   ○ Addition;
-   ○ Substraction;
-   ○ Multiplication;
-   ○ Division;
-   
-This calculator works only in console.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+
+<p align="center">
+  <img src="images/logo.gif" alt="Calculator Logo" width="200">
+</p>
+
+## 📝 Description
+This Project is an application that works in terminal, capable to execute default math operations. Stability is the main strength of this code, because it will not stop if the user enters wrong data, but instead of this the user need to reintroduce the right one.
+
+## ✨ Features
+* **Input-Validation:** Uses `try-catch` to manage`InputMismatchException`.
+* **Supported operations:** Addition (+), Subtraction (-), Multiplication (*) and Division (/).
+* **Control loop:** The user is guided until the input is valid
+* **Clean arhitecture:** Mathematic operations are separated in dedicated static methods
+
+
+## 🚀 How to start
+1. Save the code into a file named `Calculator.java`.
+2. Open the terminal the file
+3. Compile the code:
+   ```bash
+   javac Calculator.java
+4. Run the application:
+   ```bash
+   java Calculator   

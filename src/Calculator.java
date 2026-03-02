@@ -55,7 +55,7 @@ public class Calculator {
 			multiplication(number1, number2);
 			return;
 		case '-':
-			substraction(number1, number2);
+			subtraction(number1, number2);
 			return;
 		case '+':
 			addition(number1, number2);
@@ -77,7 +77,7 @@ public class Calculator {
 		}
 	}
 
-	public static void substraction(double number1, double number2) {
+	public static void subtraction(double number1, double number2) {
 		double substraction = number1 - number2;
 		System.out.println(substraction);
 	}
