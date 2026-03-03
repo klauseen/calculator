@@ -11,7 +11,6 @@
 This Project is an application that works in terminal, capable to execute default math operations. Stability is the main strength of this code, because it will not stop if the user enters wrong data, but instead of this the user need to reintroduce the right one.
 
 ## ✨ Features
-* **Input-Validation:** Uses `try-catch` to manage`InputMismatchException`.
 * **Supported operations:** Addition (+), Subtraction (-), Multiplication (*) and Division (/).
 * **Control loop:** The user is guided until the input is valid
 * **Clean arhitecture:** Mathematic operations are separated in dedicated static methods
