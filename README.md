@@ -18,7 +18,7 @@ This Project is an application that works in terminal, capable to execute defaul
 
 ## 🚀 How to start
 1. Save the code into a file named `Calculator.java`.
-2. Open the terminal the file
+2. Open the terminal file
 3. Compile the code:
    ```bash
    javac Calculator.java
