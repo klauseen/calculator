@@ -107,7 +107,7 @@ public class CalculatorUI extends JFrame {
 		contentPane.add(btnNine);
 		btnNine.addActionListener(commonListener);
 		
-		JButton btnMultiplication = new JButton("X");
+		JButton btnMultiplication = new JButton("*");
 		btnMultiplication.setBounds(240, 199, 49, 29);
 		contentPane.add(btnMultiplication);
 		btnMultiplication.addActionListener(commonListener);
