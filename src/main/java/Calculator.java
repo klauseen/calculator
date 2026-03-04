@@ -16,7 +16,7 @@ public class Calculator {
 
 	public static double division(double number1, double number2) {
 		if(number2 == 0) {
-			return 0;
+			return Double.NaN;
 		}else {
 		return number1 / number2;
 		}
