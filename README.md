@@ -1,27 +1,35 @@
-# 🧮 Smart Console Calculator (Java)
+# 🧮 Calculator (Java)
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+ <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" alt="Maven">
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+
 
 <p align="center">
   <img src="images/logo.gif" alt="Calculator Logo" width="200">
 </p>
 
 ## 📝 Description
-This Project is an application that works in terminal, capable to execute default math operations. Stability is the main strength of this code, because it will not stop if the user enters wrong data, but instead of this the user need to reintroduce the right one.
+This is a desktop project developed in Java Swing, capable to execute default math operations
+
+## 🎬 Demonstration
+
+<p align = "center">
+<img src = "images/demonstration.gif" alt = "Calculator Demonstration" width = 200>
 
 ## ✨ Features
+* **GUI Interface:** Created with a fixed design (330x490) for stability
 * **Supported operations:** Addition (+), Subtraction (-), Multiplication (*) and Division (/).
-* **Control loop:** The user is guided until the input is valid
-* **Clean arhitecture:** Mathematic operations are separated in dedicated static methods
+* **Special functions:** DEL button (delete a character) AC (reset) and percentage (%)
+* **Input:** It supports both button clicks and the **Enter** key for calculation.
+
+## 🛠️ Tech used
+* **Language:** Java 17+
+* **GUI:** Java Swing & AWT
+* **Build Tool:** Maven 
 
 
 ## 🚀 How to start
-1. Save the code into a file named `Calculator.java`.
-2. Open the terminal file
-3. Compile the code:
-   ```bash
-   javac Calculator.java
-4. Run the application:
-   ```bash
-   java Calculator   
+1. Clone the repository
+2. Open it in you IDE
+3. Run 'CalculatorUI.java'

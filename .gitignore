@@ -1,4 +1,14 @@
 .idea
 out
 Calculator.iml
-/bin/
+bin/
+*.class
+.settings/
+.project
+.classpath
+.DS_Store
+target/
+.settings/
+.project
+.classpath
+*.class
