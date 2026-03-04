@@ -168,7 +168,6 @@ public class CalculatorUI extends JFrame {
 		btnEqual.setBounds(240, 330, 49, 29);
 		contentPane.add(btnEqual);
 		btnEqual.addActionListener(commonListener);
-
 	}
 
 	private static void processButtons(String text) {
@@ -237,21 +236,21 @@ public class CalculatorUI extends JFrame {
 				}
 			} else if (input.contains("-")) {
 				int operatorIndex = -1;
-				
-				for(int i = 1 ; i < input.length(); i++) {
+
+				for (int i = 1; i < input.length(); i++) {
 					char c = input.charAt(i);
-					
-					if(c == '-' && Character.isDigit(input.charAt(i - 1))) {
+
+					if (c == '-' && Character.isDigit(input.charAt(i - 1))) {
 						operatorIndex = i;
 						break;
 					}
 				}
-				
-				if(operatorIndex != -1) {
-					String part1 = input.substring(0 , operatorIndex);
+
+				if (operatorIndex != -1) {
+					String part1 = input.substring(0, operatorIndex);
 					String part2 = input.substring(operatorIndex + 1);
-					
-					if(!part1.isEmpty() && !part2.isEmpty()) {
+
+					if (!part1.isEmpty() && !part2.isEmpty()) {
 						number1 = Double.parseDouble(part1);
 						number2 = Double.parseDouble(part2);
 						result = Calculator.subtraction(number1, number2);
