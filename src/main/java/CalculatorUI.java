@@ -61,8 +61,6 @@ public class CalculatorUI extends JFrame {
 				if (e.getKeyCode() == KeyEvent.VK_ENTER) {
 					Result();
 				}
-				
-				
 			}
 		});
 

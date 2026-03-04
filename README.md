@@ -18,7 +18,6 @@ This is a desktop project developed in Java Swing, capable to execute default ma
 <img src = "images/demonstration.gif" alt = "Calculator Demonstration" width = 200>
 
 ## ✨ Features
-* **GUI Interface:** Created with a fixed design (330x490) for stability
 * **Supported operations:** Addition (+), Subtraction (-), Multiplication (*) and Division (/).
 * **Special functions:** DEL button (delete a character) AC (reset) and percentage (%)
 * **Input:** It supports both button clicks and the **Enter** key for calculation.
