@@ -39,8 +39,10 @@ public class CalculatorUI extends JFrame {
 	 * Create the frame.
 	 */
 	public CalculatorUI() {
+		setTitle("Calculator");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 330, 490);
+		setResizable(false);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
